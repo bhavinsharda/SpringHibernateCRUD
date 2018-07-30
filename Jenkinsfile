@@ -24,7 +24,7 @@ pipeline{
 		stage ('Deployment Stage') {
 	
 			steps{		
-				bat 'mvn clean deploy'
+				bat 'mvn -U clean install -Dmaven-wagon.http.ssl.insecure=true -DskipTests'
 		    }
 		}	   	   
    }	

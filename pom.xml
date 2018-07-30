@@ -139,7 +139,7 @@
 			<artifactId>maven-bundle-plugin</artifactId>
 			<extensions>true</extensions>
 			<configuration>
-			source>${java.version}</source>
+			<source>${java.version}</source>
                         <target>${java.version}</target>
 			</configuration>
     	  </plugin>      

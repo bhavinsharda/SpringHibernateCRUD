@@ -24,7 +24,7 @@ pipeline{
 		stage ('Deployment Stage') {
 	
 			steps{		
-				bat 'mvn -U clean install'
+				bat 'mvn deploy'
 		    }
 		}	   	   
    }	

@@ -133,12 +133,12 @@
 		<repository>
 			<id>com.jwt.spring</id>
 			<name>SpringMVCHibernateCRUD</name>
-			<url>C:\Users\pca48\.m2\repository\com\jwt\spring\SpringHibernateCRUD\1.0-SNAPSHOT\SpringHibernateCRUD-1.0-SNAPSHOT.war</url>
+			<url>D:\jenkins\.jenkins\workspace\SpringHibernateCRUD\target\SpringHibernateCRUD.war</url>
 		</repository>
 		<snapshotRepository>
 			<id>com.jwt.spring</id>
 			<name>plugins-snapshot</name>
-			<url>C:\Users\pca48\.m2\repository\com\jwt\spring\SpringHibernateCRUD\1.0-SNAPSHOT\SpringHibernateCRUD-1.0-SNAPSHOT.war</url>
+			<url>D:\jenkins\.jenkins\workspace\SpringHibernateCRUD\target\SpringHibernateCRUD.war</url>
 		</snapshotRepository>
 	</distributionManagement>
 </project>

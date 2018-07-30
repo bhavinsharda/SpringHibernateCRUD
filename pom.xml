@@ -109,11 +109,13 @@
 	</dependencies>
 	<build>
 		<finalName>SpringHibernateCRUD</finalName>
-		<parent>
-		    <groupId>org.apache.maven.wagon</groupId>
-		    <artifactId>wagon-ftp</artifactId>
-		    <version>2.7</version>
-		</parent>
+		  <extensions>
+		    <extension>
+		      <groupId>org.apache.maven.wagon</groupId>
+		      <artifactId>wagon-ssh</artifactId>
+		      <version>2.10</version>
+		  </extension>
+		</extensions>
 		<plugins>
 			<plugin>
 				<artifactId>maven-compiler-plugin</artifactId>

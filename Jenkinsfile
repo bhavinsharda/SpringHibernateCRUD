@@ -24,7 +24,7 @@ pipeline{
 		stage ('Deployment Stage') {
 	
 			steps{		
-				bat 'mvn -X'
+				bat 'mvn deploy:deploy'
 		    }
 		}	   	   
    }	

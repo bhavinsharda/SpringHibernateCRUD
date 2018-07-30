@@ -116,8 +116,6 @@
 				<version>2.10</version>
 			</extension>
 			
-			     <extensions>true</extensions>
-               
 		</extensions>
 		<plugins>
 			

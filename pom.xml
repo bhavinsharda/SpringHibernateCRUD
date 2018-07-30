@@ -117,15 +117,7 @@
 			</extension>
 		</extensions>
 		<plugins>
-			<plugin>
-				<artifactId>maven-surefire-plugin</artifactId>
-				<version>2.19</version>
-				<configuration>
-					<includes>
-						<include>**/*Tests.java</include>
-					</includes>
-				</configuration>
-			</plugin>
+			
 			<plugin>
 				<artifactId>maven-compiler-plugin</artifactId>
 				<version>3.6.1</version>
@@ -134,18 +126,7 @@
 					<target>${java.version}</target>
 				</configuration>
 			</plugin>
-			<!-- https://mvnrepository.com/artifact/org.apache.felix/maven-bundle-plugin -->
-
-			<plugin>
-				<groupId>org.apache.felix</groupId>
-				<artifactId>maven-bundle-plugin</artifactId>
-				<version>3.2.0</version>
-				<extensions>true</extensions>
-				<configuration>
-					<source>${java.version}</source>
-					<target>${java.version}</target>
-				</configuration>
-			</plugin>
+			
 		</plugins>
 
 	</build>
@@ -153,12 +134,12 @@
 		<repository>
 			<id>com.jwt.spring</id>
 			<name>SpringMVCHibernateCRUD</name>
-			<url>C:\Users\pca48\.m2\repository\com\jwt\spring\SpringHibernateCRUD\1.0-SNAPSHOT\</url>
+			<url>C:\Users\pca48\.m2\repository\com\jwt\spring\SpringHibernateCRUD\1.0-SNAPSHOT\SpringHibernateCRUD-1.0-SNAPSHOT.war</url>
 		</repository>
 		<snapshotRepository>
 			<id>com.jwt.spring</id>
 			<name>plugins-snapshot</name>
-			<url>>C:\Users\pca48\.m2\repository\com\jwt\spring\SpringHibernateCRUD\1.0-SNAPSHOT\</url>
+			<url>>C:\Users\pca48\.m2\repository\com\jwt\spring\SpringHibernateCRUD\1.0-SNAPSHOT\SpringHibernateCRUD-1.0-SNAPSHOT.war</url>
 		</snapshotRepository>
 	</distributionManagement>
 </project>

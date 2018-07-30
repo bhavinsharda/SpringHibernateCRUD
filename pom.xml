@@ -115,6 +115,9 @@
 				<artifactId>wagon-ftp</artifactId>
 				<version>2.10</version>
 			</extension>
+			
+			     <extensions>true</extensions>
+               
 		</extensions>
 		<plugins>
 			
@@ -126,7 +129,14 @@
 					<target>${java.version}</target>
 				</configuration>
 			</plugin>
-			
+			    <executions>
+                        <execution>
+                            <goals>
+                                    <goal>mvn deploy</goal>
+                                    <goal>deploy</goal>
+                            </goals>
+                        </execution>
+                </executions>
 		</plugins>
 
 	</build>
@@ -139,7 +149,7 @@
 		<snapshotRepository>
 			<id>com.jwt.spring</id>
 			<name>plugins-snapshot</name>
-			<url>>C:\Users\pca48\.m2\repository\com\jwt\spring\SpringHibernateCRUD\1.0-SNAPSHOT\SpringHibernateCRUD-1.0-SNAPSHOT.war</url>
+			<url>C:\Users\pca48\.m2\repository\com\jwt\spring\SpringHibernateCRUD\1.0-SNAPSHOT\SpringHibernateCRUD-1.0-SNAPSHOT.war</url>
 		</snapshotRepository>
 	</distributionManagement>
 </project>

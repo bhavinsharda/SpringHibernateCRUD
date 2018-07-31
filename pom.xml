@@ -126,13 +126,17 @@
                     <target>${java.version}</target>
                 </configuration>
             </plugin>
+		
 		 <plugin>
-            <artifactId>maven-war-plugin</artifactId>
-            <version>2.6</version>
-            <configuration>
-             <outputDirectory>D:\NEWPC\softwar\apache-tomcat-8.0.53\webapps</outputDirectory>
-            </configuration>
-        </plugin>
+                    <groupId>org.apache.tomcat.maven</groupId>
+                    <artifactId>tomcat8-maven-plugin</artifactId>
+                    <version>2.2</version>
+                    <configuration>
+                        <url>http://localhost:8080/manager/text</url>
+                        <server>TomcatServer</server>
+                        <path>/target/SpringMVCHibernateCRUD.war</path>
+                    </configuration>
+                </plugin>
 
         </plugins>
              

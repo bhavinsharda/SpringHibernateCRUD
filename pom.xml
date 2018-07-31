@@ -126,6 +126,14 @@
                     <target>${java.version}</target>
                 </configuration>
             </plugin>
+		<plugin>
+		    <artifactId>maven-war-plugin</artifactId>
+		    <version>2.6</version>
+		    <configuration>
+			<outputDirectory>target/SpringHibernateCRUD.war</outputDirectory>
+		    </configuration>
+		</plugin>
+
         </plugins>
              
        </build>

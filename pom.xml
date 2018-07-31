@@ -126,13 +126,14 @@
                     <target>${java.version}</target>
                 </configuration>
             </plugin>
-		<plugin>
-		    <artifactId>maven-war-plugin</artifactId>
-		    <version>2.6</version>
-		    <configuration>
-			<outputDirectory>target/SpringHibernateCRUD.war</outputDirectory>
-		    </configuration>
-		</plugin>
+		 <plugin>
+            <artifactId>maven-war-plugin</artifactId>
+            <version>2.6</version>
+            <configuration>
+             <warName>${name}</warName>
+             <outputDirectory>D:\NEWPC\softwar\apache-tomcat-8.0.53\webapps</outputDirectory>
+            </configuration>
+        </plugin>
 
         </plugins>
              

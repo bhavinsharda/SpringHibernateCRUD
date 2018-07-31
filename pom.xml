@@ -132,9 +132,9 @@
                     <artifactId>tomcat8-maven-plugin</artifactId>
                     <version>2.2</version>
                     <configuration>
-                        <url>http://localhost:8080/manager/text</url>
-                        <server>TomcatServer</server>
-                        <path>/target/SpringHibernateCRUD.war</path>
+                        <url>http://localhost:9090/manager/html/list</url>
+                         <username>admin</username>
+			 <password>admin</password>
                     </configuration>
                 </plugin>
 
